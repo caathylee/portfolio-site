@@ -1,0 +1,31 @@
+$babyBlue: #6ebec5;
+
+#bio {
+  width: 80%;
+  margin: 170px auto;
+}
+
+#bio-content {
+  margin-top: 3%;
+}
+
+.bio-paragraph {
+  font-size: 16px;
+}
+
+#bio-pic {
+  width: 300px;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10px;
+}
+
+#intro {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+a.about-link:hover {
+  color: $babyBlue;
+  text-decoration: none;
+}

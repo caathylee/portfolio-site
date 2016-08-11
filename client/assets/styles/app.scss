@@ -1,0 +1,63 @@
+@import "app/navbar";
+@import "app/landing";
+@import "app/bio";
+@import "app/contact";
+@import "app/resume";
+@import url(https://fonts.googleapis.com/css?family=Roboto:700,300,100,100italic,300italic,400italic,500,400);
+
+$fontStack: 'Roboto', sans-serif;
+$lightGray: #f1f1f1;
+$darkGray: #a6a5a5;
+$orangeRed: #e46a5d;
+$babyBlue: #6ebec5;
+$goldenYellow: #f1b14f;
+
+html,
+body {
+  margin: 0;
+  font-family: $fontStack;
+  font-weight: 300;
+}
+
+p {
+  font-size: 17px;
+}
+.thin {
+  font-weight: 100;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.orange-red {
+  color: $orangeRed;
+}
+.baby-blue {
+  color: $babyBlue;
+}
+
+.golden-yellow {
+  color: $goldenYellow;
+}
+
+.dark-gray {
+  color: $darkGray;
+}
+
+#footer {
+  text-align: center;
+  position: absolute;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  margin-bottom: 2%;
+}
