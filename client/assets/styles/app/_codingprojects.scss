@@ -1,0 +1,88 @@
+$orangeRed: #e46a5d;
+$babyBlue: #6ebec5;
+
+div.portfolio-navbar {
+  display: table;
+  margin: 0 auto;
+}
+
+ul.portfolio-navbar {
+  /*margin-top: 180px;*/
+/*  color: white;*/
+  width: 900px;
+  /*margin: 0 auto;*/
+}
+
+li.unselected {
+  background-color: $babyBlue;
+}
+
+ul.portfolio-navbar {
+  list-style-type: none;
+  display: inline block;
+  text-align: center;
+}
+
+ul.portfolio-navbar li {
+  padding: 10px 15px;
+  display: inline;
+  color: white;
+  margin-right: 1px;
+}
+
+h1.projects-header {
+  margin-top: 50px;
+}
+
+p.projects-headline {
+  margin-bottom: 100px;
+}
+
+#coding-projects {
+  margin-top: 180px;  
+} 
+
+#projects-content {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div.coding-project-section {
+  margin-bottom: 60px;
+}
+
+.project-name, .portfolio-project-description, .technologies, h4.project-url {
+  text-align: left;
+  margin-left: 15%;
+}
+
+#projects-content ul {
+  text-align: left;
+}
+
+img.project-screenshots {
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.grey-border {
+  border: 1px solid #a6a5a5;
+}
+
+.coding-project-section ul {
+  list-style-type: none;
+}
+
+.project-description, .technologies {
+  width: 80%;
+}
+
+a.project-url {
+  color: $orangeRed;
+}
+
+a.project-url:hover {
+  color: $babyBlue;
+  text-decoration: none;  
+}

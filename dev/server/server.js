@@ -9,6 +9,18 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+app.get('/about', function (req, res) {
+  res.sendFile(path.resolve(__dirname + '/../client/index.html'));
+});
+
+app.get('/resume', function (req, res) {
+  res.sendFile(path.resolve(__dirname + '/../client/index.html'));
+});
+
+app.get('/contact', function (req, res) {
+  res.sendFile(path.resolve(__dirname + '/../client/index.html'));
+});
+
 var server = app.listen(8080, function () {
   var port = server.address().port;
 

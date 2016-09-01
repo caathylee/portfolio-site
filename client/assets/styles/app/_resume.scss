@@ -1,3 +1,7 @@
+$goldenYellow: #f1b14f;
+$orangeRed: #e46a5d;
+
+
 #resume {
   margin-top: 100px;
 }
@@ -6,9 +10,28 @@
   width: 60%;
   margin: auto;
 }
+
+a.resume-links {
+  font-weight: 300;
+  color: $goldenYellow;
+}
+
+a.resume-links:hover {
+  color: $orangeRed;
+  text-decoration: none;
+}
+
+#technical-skills-section, .side-section {
+  margin-bottom: 25px;
+}
+
 ul.left-column-list {
   list-style-type: none;
   padding-left: 0;
+  font-size: 16px;
+}
+
+ul.experience-bullets {
   font-size: 16px;
 }
 
@@ -19,4 +42,8 @@ ul.left-column-list {
 
 .list-sub-heading, .school-name {
   font-size: 17px;
+}
+
+.project-description {
+  font-size: 16px;
 }

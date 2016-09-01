@@ -21,6 +21,27 @@ app.get('/contact', function (req, res) {
   res.sendFile(path.resolve(__dirname + '/../client/index.html'));
 });
 
+app.get('/portfolio', function (req, res) {
+  res.sendFile(path.resolve(__dirname + '/../client/index.html'));
+});
+
+app.get('/web', function (req, res) {
+  res.sendFile(path.resolve(__dirname + '/../client/index.html'));
+});
+
+app.get('/socialmedia', function (req, res) {
+  res.sendFile(path.resolve(__dirname + '/../client/index.html'));
+});
+
+app.get('/print', function (req, res) {
+  res.sendFile(path.resolve(__dirname + '/../client/index.html'));
+});
+
+app.get('/codingprojects', function (req, res) {
+  res.sendFile(path.resolve(__dirname + '/../client/index.html'));
+});
+
+
 var server = app.listen(8080, function () {
   var port = server.address().port;
 

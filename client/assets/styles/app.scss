@@ -3,6 +3,10 @@
 @import "app/bio";
 @import "app/contact";
 @import "app/resume";
+@import "app/webwork";
+@import "app/socialmedia";
+@import "app/print";
+@import "app/codingprojects";
 @import url(https://fonts.googleapis.com/css?family=Roboto:700,300,100,100italic,300italic,400italic,500,400);
 
 $fontStack: 'Roboto', sans-serif;
@@ -17,6 +21,7 @@ body {
   margin: 0;
   font-family: $fontStack;
   font-weight: 300;
+  /*padding-top: 180px;*/
 }
 
 p {
@@ -38,6 +43,13 @@ p {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
+.italic {
+  font-style: italic;
+}
 .orange-red {
   color: $orangeRed;
 }
@@ -51,6 +63,23 @@ p {
 
 .dark-gray {
   color: $darkGray;
+}
+
+.current-subcategory {
+  background-color: $darkGray;
+}
+
+.portfolio-navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfolio-navbar li:hover {
+  background-color: $darkGray;
+}
+
+.portfolio-navbar a:hover {
+  color: white;
 }
 
 #footer {
