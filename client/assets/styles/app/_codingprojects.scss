@@ -13,10 +13,6 @@ ul.portfolio-navbar {
   /*margin: 0 auto;*/
 }
 
-li.unselected {
-  background-color: $babyBlue;
-}
-
 ul.portfolio-navbar {
   list-style-type: none;
   display: inline block;
@@ -35,7 +31,7 @@ h1.projects-header {
 }
 
 p.projects-headline {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 #coding-projects {

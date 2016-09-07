@@ -11,15 +11,17 @@ class Web extends Component {
         <NavBar />
         <div className="portfolio-navbar">
           <ul className="portfolio-navbar">
-            <li className="unselected"><a href="/portfolio">HOME</a></li>
+            <li className="blue-background"><a href="/portfolio">HOME</a></li>
             <li className="current-subcategory"><a href="/web">WEB</a></li>
-            <li className="unselected"><a href="/socialmedia">SOCIAL MEDIA</a></li>
-            <li className="unselected"><a href="/print">PRINT</a></li>
-            <li className="unselected"><a href="/codingprojects">CODING PROJECTS</a></li>
+            <li className="blue-background"><a href="/socialmedia">SOCIAL MEDIA</a></li>
+            <li className="blue-background"><a href="/print">PRINT</a></li>
+            <li className="blue-background"><a href="/codingprojects">CODING PROJECTS</a></li>
           </ul>
         </div>
-
-        <h1>THIS IS WEBWORK SECTION</h1>
+        <div id="web-content">
+          <h1 className="web-header">Web</h1>
+          <p>Below are past experience with creating websites, email campaigns, icons, logos, and banners.</p>
+        </div>
       </div>
     );
   }

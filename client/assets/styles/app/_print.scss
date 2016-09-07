@@ -1,3 +1,28 @@
 #print {
   margin-top: 180px;
+  text-align: center;
+}
+
+#print-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1.print-header {
+  margin-top: 50px;
+}
+
+p.print-headline {
+  margin-bottom: 80px;
+}
+
+h3.print-category {
+  text-align: left;
+  margin-left: 15%;
+}
+
+img.print-mockups {
+  margin-bottom: 25px;
+  text-align: left;
+  width: 70%;
 }

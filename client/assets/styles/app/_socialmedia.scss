@@ -1,3 +1,55 @@
+$orangeRed: #e46a5d;
+$babyBlue: #6ebec5;
+
 #social-media {
   margin-top: 180px;
+  text-align: center;
+}
+
+#social-media-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1.social-media-header {
+  margin-top: 50px;
+  margin-left: 15%;
+  text-align: left;
+}
+
+p.social-media-headline {
+  /*margin: 0px 40px 80px 40px;*/
+  text-align: left;
+  margin-left: 15%;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+p.last-paragraph {
+  margin-bottom: 50px;
+}
+
+
+
+h3.social-media-category, p.social-media-subheadline, p.social-media-url {
+  text-align: left;
+  margin-left: 15%;
+}
+
+p.social-media-subheadline {
+  width: 70%;
+}
+
+img.social-media-mockup {
+  margin-bottom: 25px;
+  width: 70%;
+}
+
+a.social-media-url {
+  color: $orangeRed;
+}
+
+a.social-media-url:hover {
+  color: $babyBlue;
+  text-decoration: none;  
 }

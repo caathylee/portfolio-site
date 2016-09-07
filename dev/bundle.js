@@ -20122,7 +20122,7 @@
 	                'Outside of career, my personal interests include cooking, spin class, playing video games & board games, hiking with my dog, ',
 	                _react2.default.createElement(
 	                  'a',
-	                  { className: 'baby-blue about-link', href: 'https://www.instagram.com/pudgethemightycorgi/' },
+	                  { className: 'about-link', href: 'https://www.instagram.com/pudgethemightycorgi/' },
 	                  '@pudgethemightcorgi'
 	                ),
 	                ', attending the occasional nerdy convention, and traveling.'
@@ -20909,7 +20909,7 @@
 	            { className: 'portfolio-navbar' },
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'blue-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/portfolio' },
@@ -20918,7 +20918,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'blue-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/web' },
@@ -20927,7 +20927,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'blue-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/socialmedia' },
@@ -20936,7 +20936,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'blue-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/print' },
@@ -26666,7 +26666,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Roboto:700,300,100,100italic,300italic,400italic,500,400);", ""]);
 
 	// module
-	exports.push([module.id, ".navbar {\n  height: 80px; }\n\n.navbar-nav {\n  float: right; }\n\n/*.container-fluid {\n  padding-top: 1%;\n}*/\n#navbar-content {\n  margin-left: 2%;\n  margin-right: 2%;\n  height: 80px;\n  padding-top: 15px; }\n\n#logo {\n  height: 250%;\n  margin-top: -16px; }\n\n/*$lightGray: #f1f1f1;\n\n#navpages {\n  list-style-type: none;\n  background-color: $lightGray;\n}\n\n#navpages li {\n  display: inline block;\n\n\n}\n\n#logo-image-li {\n}\nimg#logo-image {\n  height: 50px;\n}*/\n#landing {\n  margin-top: 40%;\n  margin: 0 auto;\n  width: 70%; }\n\n.landing-icons {\n  width: 100%;\n  line-height: 200%; }\n\n#tagline-header {\n  margin-top: 133px; }\n\n#tagline {\n  margin-top: 2%;\n  margin-bottom: 5%;\n  font-size: 16px; }\n\n.icon-caption {\n  margin-top: 5px;\n  margin-bottom: 10px; }\n\n#bio {\n  width: 80%;\n  margin: 170px auto; }\n\n#bio-content {\n  margin-top: 3%; }\n\n.bio-paragraph {\n  font-size: 16px; }\n\n#bio-pic {\n  width: 300px;\n  text-align: center;\n  margin-top: 10%;\n  margin-bottom: 10px; }\n\n#intro {\n  font-size: 20px;\n  font-weight: 600; }\n\na.about-link:hover {\n  color: #6ebec5;\n  text-decoration: none; }\n\n#contact-content {\n  margin-top: 200px;\n  margin-left: 5%;\n  margin-right: 5%; }\n\nimg.contact-icons {\n  width: 120px; }\n\n.contact-icon-caption {\n  text-align: center; }\n\n.contact-icon-titles {\n  text-align: center;\n  margin-bottom: 50px; }\n\n#resume {\n  margin-top: 100px; }\n\n#resume-content {\n  width: 60%;\n  margin: auto; }\n\na.resume-links {\n  font-weight: 300;\n  color: #f1b14f; }\n\na.resume-links:hover {\n  color: #e46a5d;\n  text-decoration: none; }\n\n#technical-skills-section, .side-section {\n  margin-bottom: 25px; }\n\nul.left-column-list {\n  list-style-type: none;\n  padding-left: 0;\n  font-size: 16px; }\n\nul.experience-bullets {\n  font-size: 16px; }\n\n.list-heading {\n  font-size: 20px;\n  font-weight: 300; }\n\n.list-sub-heading, .school-name {\n  font-size: 17px; }\n\n.project-description {\n  font-size: 16px; }\n\n#web-work {\n  margin-top: 180px; }\n\n#social-media {\n  margin-top: 180px; }\n\n#print {\n  margin-top: 180px; }\n\ndiv.portfolio-navbar {\n  display: table;\n  margin: 0 auto; }\n\nul.portfolio-navbar {\n  /*margin-top: 180px;*/\n  /*  color: white;*/\n  width: 900px;\n  /*margin: 0 auto;*/ }\n\nli.unselected {\n  background-color: #6ebec5; }\n\nul.portfolio-navbar {\n  list-style-type: none;\n  display: inline block;\n  text-align: center; }\n\nul.portfolio-navbar li {\n  padding: 10px 15px;\n  display: inline;\n  color: white;\n  margin-right: 1px; }\n\nh1.projects-header {\n  margin-top: 50px; }\n\np.projects-headline {\n  margin-bottom: 100px; }\n\n#coding-projects {\n  margin-top: 180px; }\n\n#projects-content {\n  text-align: center;\n  width: 80%;\n  margin: 0 auto; }\n\ndiv.coding-project-section {\n  margin-bottom: 60px; }\n\n.project-name, .portfolio-project-description, .technologies, h4.project-url {\n  text-align: left;\n  margin-left: 15%; }\n\n#projects-content ul {\n  text-align: left; }\n\nimg.project-screenshots {\n  width: 70%;\n  margin-bottom: 15px; }\n\n.grey-border {\n  border: 1px solid #a6a5a5; }\n\n.coding-project-section ul {\n  list-style-type: none; }\n\n.project-description, .technologies {\n  width: 80%; }\n\na.project-url {\n  color: #e46a5d; }\n\na.project-url:hover {\n  color: #6ebec5;\n  text-decoration: none; }\n\nhtml,\nbody {\n  margin: 0;\n  font-family: \"Roboto\", sans-serif;\n  font-weight: 300;\n  /*padding-top: 180px;*/ }\n\np {\n  font-size: 17px; }\n\n.thin {\n  font-weight: 100; }\n\n.light {\n  font-weight: 300; }\n\n.bold {\n  font-weight: 700; }\n\n.center {\n  text-align: center; }\n\n.left {\n  text-align: left; }\n\n.italic {\n  font-style: italic; }\n\n.orange-red {\n  color: #e46a5d; }\n\n.baby-blue {\n  color: #6ebec5; }\n\n.golden-yellow {\n  color: #f1b14f; }\n\n.dark-gray {\n  color: #a6a5a5; }\n\n.current-subcategory {\n  background-color: #a6a5a5; }\n\n.portfolio-navbar a {\n  text-decoration: none;\n  color: white; }\n\n.portfolio-navbar li:hover {\n  background-color: #a6a5a5; }\n\n.portfolio-navbar a:hover {\n  color: white; }\n\n#footer {\n  text-align: center;\n  position: absolute;\n  bottom: 0px;\n  height: 30px;\n  width: 100%;\n  margin-bottom: 2%; }\n", ""]);
+	exports.push([module.id, ".navbar {\n  height: 80px; }\n\n.navbar-nav {\n  float: right; }\n\n/*.container-fluid {\n  padding-top: 1%;\n}*/\n#navbar-content {\n  margin-left: 2%;\n  margin-right: 2%;\n  height: 80px;\n  padding-top: 15px; }\n\n#logo {\n  height: 250%;\n  margin-top: -16px; }\n\n/*$lightGray: #f1f1f1;\n\n#navpages {\n  list-style-type: none;\n  background-color: $lightGray;\n}\n\n#navpages li {\n  display: inline block;\n\n\n}\n\n#logo-image-li {\n}\nimg#logo-image {\n  height: 50px;\n}*/\n#landing {\n  margin-top: 40%;\n  margin: 0 auto;\n  width: 70%; }\n\n.landing-icons {\n  width: 100%;\n  line-height: 200%; }\n\n#tagline-header {\n  margin-top: 133px; }\n\n#tagline {\n  margin-top: 2%;\n  margin-bottom: 5%;\n  font-size: 16px; }\n\n.icon-caption {\n  margin-top: 5px;\n  margin-bottom: 10px; }\n\n#bio {\n  width: 80%;\n  margin: 170px auto; }\n\n#bio-content {\n  margin-top: 3%; }\n\n.bio-paragraph {\n  font-size: 16px; }\n\n#bio-pic {\n  width: 300px;\n  text-align: center;\n  margin-top: 10%;\n  margin-bottom: 10px; }\n\n#intro {\n  font-size: 20px;\n  font-weight: 600; }\n\na.about-link {\n  color: #6ebec5; }\n\na.about-link:hover {\n  color: #e46a5d;\n  text-decoration: none; }\n\n#contact-content {\n  margin-top: 200px;\n  margin-left: 5%;\n  margin-right: 5%; }\n\nimg.contact-icons {\n  width: 120px; }\n\n.contact-icon-caption {\n  text-align: center; }\n\n.contact-icon-titles {\n  text-align: center;\n  margin-bottom: 50px; }\n\n#resume {\n  margin-top: 100px; }\n\n#resume-content {\n  width: 60%;\n  margin: auto; }\n\na.resume-links {\n  font-weight: 300;\n  color: #f1b14f; }\n\na.resume-links:hover {\n  color: #e46a5d;\n  text-decoration: none; }\n\n#technical-skills-section, .side-section {\n  margin-bottom: 25px; }\n\nul.left-column-list {\n  list-style-type: none;\n  padding-left: 0;\n  font-size: 16px; }\n\nul.experience-bullets {\n  font-size: 16px; }\n\n.list-heading {\n  font-size: 20px;\n  font-weight: 300; }\n\n.list-sub-heading, .school-name {\n  font-size: 17px; }\n\n.project-description {\n  font-size: 16px; }\n\n#web-work {\n  margin-top: 180px; }\n\n#web-content {\n  width: 80%;\n  margin: 0 auto;\n  text-align: center; }\n\nh1.web-header {\n  margin-top: 50px; }\n\n#social-media {\n  margin-top: 180px;\n  text-align: center; }\n\n#social-media-content {\n  width: 80%;\n  margin: 0 auto; }\n\nh1.social-media-header {\n  margin-top: 50px;\n  margin-left: 15%;\n  text-align: left; }\n\np.social-media-headline {\n  /*margin: 0px 40px 80px 40px;*/\n  text-align: left;\n  margin-left: 15%;\n  width: 70%;\n  margin-bottom: 30px; }\n\np.last-paragraph {\n  margin-bottom: 50px; }\n\nh3.social-media-category, p.social-media-subheadline, p.social-media-url {\n  text-align: left;\n  margin-left: 15%; }\n\np.social-media-subheadline {\n  width: 70%; }\n\nimg.social-media-mockup {\n  margin-bottom: 25px;\n  width: 70%; }\n\na.social-media-url {\n  color: #e46a5d; }\n\na.social-media-url:hover {\n  color: #6ebec5;\n  text-decoration: none; }\n\n#print {\n  margin-top: 180px;\n  text-align: center; }\n\n#print-content {\n  width: 80%;\n  margin: 0 auto; }\n\nh1.print-header {\n  margin-top: 50px; }\n\np.print-headline {\n  margin-bottom: 80px; }\n\nh3.print-category {\n  text-align: left;\n  margin-left: 15%; }\n\nimg.print-mockups {\n  margin-bottom: 25px;\n  text-align: left;\n  width: 70%; }\n\ndiv.portfolio-navbar {\n  display: table;\n  margin: 0 auto; }\n\nul.portfolio-navbar {\n  /*margin-top: 180px;*/\n  /*  color: white;*/\n  width: 900px;\n  /*margin: 0 auto;*/ }\n\nul.portfolio-navbar {\n  list-style-type: none;\n  display: inline block;\n  text-align: center; }\n\nul.portfolio-navbar li {\n  padding: 10px 15px;\n  display: inline;\n  color: white;\n  margin-right: 1px; }\n\nh1.projects-header {\n  margin-top: 50px; }\n\np.projects-headline {\n  margin-bottom: 80px; }\n\n#coding-projects {\n  margin-top: 180px; }\n\n#projects-content {\n  text-align: center;\n  width: 80%;\n  margin: 0 auto; }\n\ndiv.coding-project-section {\n  margin-bottom: 60px; }\n\n.project-name, .portfolio-project-description, .technologies, h4.project-url {\n  text-align: left;\n  margin-left: 15%; }\n\n#projects-content ul {\n  text-align: left; }\n\nimg.project-screenshots {\n  width: 70%;\n  margin-bottom: 15px; }\n\n.grey-border {\n  border: 1px solid #a6a5a5; }\n\n.coding-project-section ul {\n  list-style-type: none; }\n\n.project-description, .technologies {\n  width: 80%; }\n\na.project-url {\n  color: #e46a5d; }\n\na.project-url:hover {\n  color: #6ebec5;\n  text-decoration: none; }\n\nhtml,\nbody {\n  margin: 0;\n  font-family: \"Roboto\", sans-serif;\n  font-weight: 300;\n  /*padding-top: 180px;*/ }\n\np {\n  font-size: 17px; }\n\n.thin {\n  font-weight: 100; }\n\n.light {\n  font-weight: 300; }\n\n.bold {\n  font-weight: 700; }\n\n.center {\n  text-align: center; }\n\n.left {\n  text-align: left; }\n\n.italic {\n  font-style: italic; }\n\n.orange-red {\n  color: #e46a5d; }\n\n.baby-blue {\n  color: #6ebec5; }\n\n.golden-yellow {\n  color: #f1b14f; }\n\n.dark-gray {\n  color: #a6a5a5; }\n\n.red-background {\n  background-color: #e46a5d; }\n\n.blue-background {\n  background-color: #6ebec5; }\n\n.yellow-background {\n  background-color: #f1b14f; }\n\n.current-subcategory {\n  background-color: #a6a5a5; }\n\n.portfolio-navbar a {\n  text-decoration: none;\n  color: white; }\n\n.portfolio-navbar li:hover {\n  background-color: #a6a5a5; }\n\n.portfolio-navbar a:hover {\n  color: white; }\n\n#footer {\n  text-align: center;\n  position: absolute;\n  bottom: 0px;\n  height: 30px;\n  width: 100%;\n  margin-bottom: 2%; }\n", ""]);
 
 	// exports
 
@@ -27031,7 +27031,7 @@
 	            { className: 'portfolio-navbar' },
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'blue-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/portfolio' },
@@ -27049,7 +27049,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'blue-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/socialmedia' },
@@ -27058,7 +27058,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'blue-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/print' },
@@ -27067,7 +27067,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'blue-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/codingprojects' },
@@ -27077,9 +27077,18 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'THIS IS WEBWORK SECTION'
+	          'div',
+	          { id: 'web-content' },
+	          _react2.default.createElement(
+	            'h1',
+	            { className: 'web-header' },
+	            'Web'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'Below are past experience with creating websites, email campaigns, icons, logos, and banners.'
+	          )
 	        )
 	      );
 	    }
@@ -27142,7 +27151,7 @@
 	            { className: 'portfolio-navbar' },
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'yellow-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/portfolio' },
@@ -27151,7 +27160,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'yellow-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/web' },
@@ -27169,7 +27178,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'yellow-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/print' },
@@ -27178,7 +27187,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'yellow-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/codingprojects' },
@@ -27188,9 +27197,61 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'THIS IS THE SOCIAL MEDIA SECTION'
+	          'div',
+	          { id: 'social-media-content' },
+	          _react2.default.createElement(
+	            'h1',
+	            { className: 'social-media-header' },
+	            'Social Media'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            { className: 'social-media-headline' },
+	            'I was in charge of managing multiple social media platforms when I was at Digital Media Wire as a Marketing & Events Assistant. I simultaneously managed 2 Facebook pages, a LinkedIn group, and 3 Twitter accounts. I posted to promote our events, newsletter content, and event updates on our social media accounts on a daily basis. I also created and edited images for posts.'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            { className: 'social-media-headline last-paragraph' },
+	            'Here\'s a little backstory. I rescued Pudge after I graduated from college. I always wanted my own dog and couldn\'t help falling for corgis and their stumpy legs. I was following corgis on Instagram a couple years before I got him and loved how there was a corgi community out there. Of course, once I got Pudge I couldn\'t help creating him his own Instagram! I then wanted to see what worked and didn\'t in getting new followers. It\'s been fun experimenting with different types of pictures, captions, and hashtags. Also, it\'s a great place to post pictures of my dog! Go follow Pudge on Instagram or Facebook! I think he\'s pretty darn cute, although I may be a little biased ;).'
+	          ),
+	          _react2.default.createElement(
+	            'h3',
+	            { className: 'social-media-category' },
+	            'Instagram'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            { className: 'social-media-url' },
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'social-media-url', href: 'https://www.instagram.com/pudgethemightycorgi/' },
+	              '@pudgethemightycorgi'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement('img', { className: 'social-media-mockup', src: 'assets/images/pudge-instagram-mockup.png' })
+	          ),
+	          _react2.default.createElement(
+	            'h3',
+	            { className: 'social-media-category' },
+	            'Facebook'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            { className: 'social-media-url' },
+	            _react2.default.createElement(
+	              'a',
+	              { className: 'social-media-url', href: 'https://www.facebook.com/pudgethemightycorgi' },
+	              'facebook.com/pudgethemightycorgi'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement('img', { className: 'social-media-mockup', src: 'assets/images/pudge-facebook-mockup.png' })
+	          )
 	        )
 	      );
 	    }
@@ -27220,6 +27281,10 @@
 	var _NavBar = __webpack_require__(161);
 
 	var _NavBar2 = _interopRequireDefault(_NavBar);
+
+	var _Footer = __webpack_require__(164);
+
+	var _Footer2 = _interopRequireDefault(_Footer);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27253,7 +27318,7 @@
 	            { className: 'portfolio-navbar' },
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'red-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/portfolio' },
@@ -27262,7 +27327,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'red-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/web' },
@@ -27271,7 +27336,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'red-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/socialmedia' },
@@ -27289,7 +27354,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'li',
-	              { className: 'unselected' },
+	              { className: 'red-background' },
 	              _react2.default.createElement(
 	                'a',
 	                { href: '/codingprojects' },
@@ -27299,10 +27364,60 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'THIS IS PRINT SECTION'
-	        )
+	          'div',
+	          { id: 'print-content' },
+	          _react2.default.createElement(
+	            'h1',
+	            { className: 'print-header' },
+	            'Print Work'
+	          ),
+	          _react2.default.createElement(
+	            'p',
+	            { className: 'print-headline' },
+	            'Below are some print work done in Adobe Photoshop and Illustrator for companies I worked at.'
+	          ),
+	          _react2.default.createElement(
+	            'h3',
+	            { className: 'print-category' },
+	            'Business Cards'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement('img', { className: 'print-mockups', src: 'assets/images/itepbusinesscardmockup.png' })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement('img', { className: 'print-mockups', src: 'assets/images/dmwbusinesscardmockup.png' })
+	          ),
+	          _react2.default.createElement(
+	            'h3',
+	            { className: 'print-category' },
+	            'Posters and Banners'
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement('img', { className: 'print-mockups', src: 'assets/images/pvc-search-engine-poster-mockup.png' })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement('img', { className: 'print-mockups', src: 'assets/images/pvc-bda-poster-mockup.png' })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement('img', { className: 'print-mockups', src: 'assets/images/pvc-google-search-engine-mockup.png' })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement('img', { className: 'print-mockups', src: 'assets/images/pvc-horizontal-poster-mockup.png' })
+	          )
+	        ),
+	        _react2.default.createElement(_Footer2.default, null)
 	      );
 	    }
 	  }]);

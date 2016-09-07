@@ -1,4 +1,5 @@
 $babyBlue: #6ebec5;
+$orangeRed: #e46a5d;
 
 #bio {
   width: 80%;
@@ -25,7 +26,11 @@ $babyBlue: #6ebec5;
   font-weight: 600;
 }
 
-a.about-link:hover {
+a.about-link {
   color: $babyBlue;
+}
+
+a.about-link:hover {
+  color: $orangeRed;
   text-decoration: none;
 }

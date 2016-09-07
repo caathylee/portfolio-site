@@ -13,10 +13,10 @@ class CodingProjects extends Component {
         <NavBar />
           <div className="portfolio-navbar">
             <ul className="portfolio-navbar">
-              <li className="unselected"><a href="/portfolio">HOME</a></li>
-              <li className="unselected"><a href="/web">WEB</a></li>
-              <li className="unselected"><a href="/socialmedia">SOCIAL MEDIA</a></li>
-              <li className="unselected"><a href="/print">PRINT</a></li>
+              <li className="blue-background"><a href="/portfolio">HOME</a></li>
+              <li className="blue-background"><a href="/web">WEB</a></li>
+              <li className="blue-background"><a href="/socialmedia">SOCIAL MEDIA</a></li>
+              <li className="blue-background"><a href="/print">PRINT</a></li>
               <li className="current-subcategory"><a href="/codingprojects">CODING PROJECTS</a></li>
             </ul>
           </div>
