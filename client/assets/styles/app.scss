@@ -50,6 +50,11 @@ p {
 .italic {
   font-style: italic;
 }
+
+.black {
+  color: red;
+}
+
 .orange-red {
   color: $orangeRed;
 }
@@ -101,4 +106,8 @@ p {
   height:30px;
   width:100%;
   margin-bottom: 2%;
+}
+
+a.current-page {
+  color: $babyBlue !important;
 }

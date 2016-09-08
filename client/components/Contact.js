@@ -10,7 +10,27 @@ class Contact extends Component {
   render() {
     return (
       <div id="contact">
-        <NavBar />
+        <div className="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div id="navbar-content" className="container-fluid">
+            <div className="navbar-header">
+              <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span className="sr-only">Toggle navigation</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+              </button>
+              <a className="navbar-brand" href="http://cathyhsianglee.com/"><img id="logo" src="assets/images/cl-logo.png" /></a>
+            </div>
+            <div className="navbar-collapse collapse">
+              <ul className="nav navbar-nav">
+                <li><a href="/portfolio">PORTFOLIO</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/resume">RESUME</a></li>
+                <li><a className="current-page" href="/contact">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
         <div id="contact-content" className="row">
           <div className="col-md-2 contact-icon-titles">
             <a href="mailto:cathyhsianglee@gmail.com?Subject=cathyhsianglee.com Information Inquiry"><img className="contact-icons" src="assets/images/email-icon.png" /></a>
@@ -38,7 +58,6 @@ class Contact extends Component {
           </div>
 
         </div>
-        <Footer />
       </div>
     );
   }
