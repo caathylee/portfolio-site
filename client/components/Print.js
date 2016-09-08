@@ -40,7 +40,7 @@ class Print extends Component {
           <div>
             <img className="print-mockups"src="assets/images/pvc-google-search-engine-mockup.png" />
           </div>
-          <div>
+          <div className="last-print-section">
             <img className="print-mockups"src="assets/images/pvc-horizontal-poster-mockup.png" />
           </div>
         </div>

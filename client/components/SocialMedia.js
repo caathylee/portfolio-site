@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
+import Footer from './Footer';
 
 class SocialMedia extends Component {
   constructor(props) {
@@ -27,15 +28,19 @@ class SocialMedia extends Component {
           <h3 className="social-media-category">Instagram</h3>
           <p className="social-media-url"><a className="social-media-url" href="https://www.instagram.com/pudgethemightycorgi/">@pudgethemightycorgi</a></p>
           <div>
-            <img className="social-media-mockup" src="assets/images/pudge-instagram-mockup.png" />
+            <a href="https://www.instagram.com/pudgethemightycorgi/">
+              <img className="social-media-mockup" src="assets/images/pudge-instagram-mockup.png" />
+            </a>
           </div>
           <h3 className="social-media-category">Facebook</h3>
           <p className="social-media-url"><a className="social-media-url" href="https://www.facebook.com/pudgethemightycorgi">facebook.com/pudgethemightycorgi</a></p>
           <div>
-            <img className="social-media-mockup" src="assets/images/pudge-facebook-mockup.png" />
+            <a href="https://www.facebook.com/pudgethemightycorgi">
+              <img className="social-media-mockup facebook-mockup" src="assets/images/pudge-facebook-mockup.png" />
+            </a>
           </div>
-
         </div>
+        <Footer />
       </div>
     );
   }

@@ -28,16 +28,21 @@ class CodingProjects extends Component {
               <h4 className="project-url"><a className="project-url" href="http://sharecrow.org/">sharecrow.org</a></h4>
               <p className="portfolio-project-description">Digital marketplace for users to rent and lend out items with payment security.</p>
               <p className="technologies">Technologies: React, Redux, Webpack, Node, Express, Postgres, Redis, AWS S3, Google Maps API, Google Geolocation API, Twilio API, Stripe API, SASS</p>
-              <img className="project-screenshots" src="assets/images/sharecrow-landing.png" />
-              <img className="project-screenshots" src="assets/images/sharecrow-marketplace.png" />
+              <a href="http://sharecrow.org/">
+                <img className="project-screenshots" src="assets/images/sharecrow-landing.png" />
+              </a>
+              <a href="http://sharecrow.org/marketplace">
+                <img className="project-screenshots" src="assets/images/sharecrow-marketplace.png" />
+              </a>
             </div>
             <div className="coding-project-section">
               <h3 className="project-name">Memowise</h3>
               <h4 className="project-url"><a className="project-url" href="http://memowise.xyz/">memowise.xyz</a></h4>
               <p className="portfolio-project-description">A customizable gamified flash card application.</p>
               <p className="technologies">Technologies: React, Redux, Node, Express, Postgres</p>
-              <img className="project-screenshots grey-border" src="assets/images/memowise.png" />
-
+              <a href="http://memowise.xyz/">
+                <img className="project-screenshots grey-border" src="assets/images/memowise.png" />
+              </a>
             </div>
             <div className="coding-project-section">
               <h3 className="project-name">Read With Me</h3>

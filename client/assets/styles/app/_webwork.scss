@@ -1,3 +1,6 @@
+$orangeRed: #e46a5d;
+$babyBlue: #6ebec5;
+
 #web-work {
   margin-top: 180px;
 }
@@ -10,4 +13,97 @@
 
 h1.web-header {
   margin-top: 50px;
+}
+
+p.web-headline {
+  width: 70%;
+  margin: auto;
+}
+
+.web-work-sub-category {
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 100px;
+}
+
+
+.logos-icons-sub-category {
+  margin-top: 100px;
+}
+
+.web-work-header, .web-work-headline, .web-header, .web-headline {
+  text-align: left;
+  margin-left: 15%;
+}
+
+p.web-headline {
+  margin-bottom: 15px;
+}
+
+p.web-work-headline {
+  width: 70%;
+}
+
+a.web-url {
+  color: $babyBlue;
+}
+
+a.web-url:hover {
+  color: $orangeRed;
+  text-decoration: none;  
+}
+
+iframe {
+  border: none;
+}
+
+img.sharecrow-logo {
+  background-color: black;
+/*  width: 350px;*/
+  margin-bottom: 20px;
+}
+
+img.readwithme-logo {
+  margin-bottom: 20px;
+}
+
+img.website-icons {
+  width: 170px;
+  margin-bottom: 15px;
+}
+
+img.email-image {
+  width: 70%;
+  margin: 20px;
+}
+
+img.logo-work {
+  width: 100%;
+  line-height: 200%;
+}
+
+img.pvc-icons {
+  /*width: 100px;*/
+  width: 50%;
+  line-height: 200%;
+}
+
+img.website-icons {
+  width: 100%;
+  line-height: 200%;
+}
+
+p.web-sub-category-headline {
+  margin-bottom: 25px;
+}
+
+div.logos-and-icons {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+div.logo-icon {
+  margin: 20px;
+  margin: auto;
 }
