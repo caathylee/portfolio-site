@@ -21,7 +21,7 @@ app.get('/contact', function (req, res) {
   res.sendFile(path.resolve(__dirname + '/../client/index.html'));
 });
 
-var server = app.listen(8080, function () {
+var server = app.listen(process.env.PORT || 8080, function () {
   var port = server.address().port;
 
   console.log('Example app listening at http://localhost/' + port);
