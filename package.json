@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "Personal portfolio site to display past works.",
   "main": "index.js",
+  "engines": {
+    "node": "6.2.2",
+    "npm": "3.9.5"
+  }
   "dependencies": {
     "body-parser": "^1.15.2",
     "css-loader": "^0.23.1",
     "express": "^4.14.0",
-    "node": "6.2.2",
     "node-sass": "^3.8.0",
-    "npm": "3.9.5",
     "path-resolve": "0.0.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
