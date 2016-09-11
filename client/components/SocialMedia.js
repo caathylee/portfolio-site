@@ -60,7 +60,6 @@ class SocialMedia extends Component {
             </a>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }
