@@ -20853,7 +20853,7 @@
 	                _react2.default.createElement(
 	                  'p',
 	                  null,
-	                  'Burbank'
+	                  'Burbank, CA'
 	                ),
 	                _react2.default.createElement(
 	                  'ul',
@@ -21701,8 +21701,7 @@
 	              _react2.default.createElement('img', { className: 'social-media-mockup facebook-mockup', src: 'assets/images/pudge-facebook-mockup.png' })
 	            )
 	          )
-	        ),
-	        _react2.default.createElement(_Footer2.default, null)
+	        )
 	      );
 	    }
 	  }]);

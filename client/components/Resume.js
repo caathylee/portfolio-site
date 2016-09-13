@@ -128,7 +128,7 @@ class Resume extends Component {
                 <h4 className="list-heading baby-blue">WORK EXPERIENCE</h4>
                   <h5 className="list-sub-heading">PolyVirtual Corporation | <span className="light">Marketing & Web Contractor</span></h5>
                   <p className="dark-gray">APRIL 2015 - DEC 2015</p>
-                  <p>Burbank</p>
+                  <p>Burbank, CA</p>
                     <ul className="experience-bullets">
                       <li>Designed and coded company website using HTML, CSS, JavaScript and PHP</li>
                       <li>Created HTML email blasts and posters for Mobile World Congress trade show of over 93,000 attendees to attract people to company booth and intorduce product/company</li>
